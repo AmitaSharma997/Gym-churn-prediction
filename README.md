@@ -141,9 +141,6 @@ gym-churn-prediction/
 ├── notebooks/
 │   └── churn_modeling.ipynb
 │
-├── dashboard/
-│   └── app.py
-│
 ├── src/
 │   ├── data_preprocessing.py
 │   ├── model_training.py
