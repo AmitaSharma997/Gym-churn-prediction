@@ -143,7 +143,7 @@ From the model and feature insights:
 │ └── best_pipeline_churn.pkl
 └── README.md
 
-10. Final Model Export
+**## 10. Final Model Export**
 The trained best-performing model is saved as:
 
 
