@@ -131,16 +131,22 @@ From the model and feature insights:
 ---
 
 ## 📁 9. Project Structure
+gym-churn-prediction/
+│
 ├── data/
 │ └── gym_churn_us.csv
+│
 ├── notebooks/
 │ └── churn_modeling.ipynb
+│
 ├── src/
 │ ├── data_preprocessing.py
 │ ├── model_training.py
 │ └── evaluation.py
+│
 ├── models/
 │ └── best_pipeline_churn.pkl
+│
 └── README.md
 
 ## 10. Final Model Export
