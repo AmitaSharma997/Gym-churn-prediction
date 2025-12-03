@@ -130,24 +130,31 @@ From the model and feature insights:
 
 ---
 
-## 📁 9. Project Structure
+## 📁 Project Structure
+
+``` 
 gym-churn-prediction/
 │
 ├── data/
-│ └── gym_churn_us.csv
+│   └── gym_churn_us.csv
 │
 ├── notebooks/
-│ └── churn_modeling.ipynb
+│   └── churn_modeling.ipynb
+│
+├── dashboard/
+│   └── app.py
 │
 ├── src/
-│ ├── data_preprocessing.py
-│ ├── model_training.py
-│ └── evaluation.py
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   └── evaluation.py
 │
 ├── models/
-│ └── best_pipeline_churn.pkl
+│   └── best_pipeline_churn.pkl
 │
-└── README.md
+├── README.md
+└── requirements.txt
+``` 
 
 ## 10. Final Model Export
 The trained best-performing model is saved as:
